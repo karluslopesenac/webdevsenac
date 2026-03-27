@@ -1,0 +1,13 @@
+body { background: #1a1a1a; color: #fff; font-family: Arial; }
+header { background: #ff4500; padding: 10px; display: flex; justify-content: space-between; }
+.produto { background: #333; margin: 2%; padding: 5%; text-align: center; width: 50%; float: left; }
+button { background: #ff4500; color: #fff; border-radius: 75px; padding: 5px 10px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; } th, td { border: 1px solid #fff; padding: 8px; }
+#confirm_del_user { animation: shake 0.5s; }
+form { max-width: 400px; margin: 20px 0; }
+input, textarea { width: 100%; padding: 8px; margin: 5px 0; background: #444; color: #fff; border: 1px solid #666; }
+@keyframes shake {
+    0%, 100% { transform: translateX(-50%); }
+    25% { transform: translateX(-52%) rotate(1deg); }
+    75% { transform: translateX(-48%) rotate(-1deg); }
+}
