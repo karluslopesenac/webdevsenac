@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Loja Gamer</title>
+    <title> Newage Loja Gamer</title>
     <link rel="stylesheet" href="style.css">
     <?php 
 session_start(); 
